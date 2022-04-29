@@ -20,7 +20,11 @@ exports.arraysAnswers = {
    * @param {Array} arr
    * @param {Number} item
    */
-  append: (arr, item) => {},
+  append: (arr, item) => {
+    arr.push(item);
+
+    return arr;
+  },
 
   /**
    * Remove the last item of an array
