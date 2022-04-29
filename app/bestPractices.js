@@ -13,7 +13,7 @@ exports.bestPracticesAnswers = {
    * @description Now myObject is a window variable
    */
   globals: () => {
-    myObject = {
+    const myObject = {
       name: "Jory",
     };
 
